@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import * as test from "./testModeule"
+import {inc,dec} from "./testModeule"
 
-var result = test.inc(10);
-var result2 = test.dec(15);
+var result = inc(10);
+var result2 = dec(15);
 console.log(result);
 console.log(result2);
 for(var propertyName in inc) {
